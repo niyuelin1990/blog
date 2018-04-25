@@ -1,0 +1,114 @@
+baseURL = "https://imwt.io/"
+languageCode = "zh-cn"
+title = "wt"
+theme = "xhugo"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+pygmentsUseClasses = false
+pygmentCodeFences = true
+#googleAnalytics = "XXX"
+
+
+[Params]
+  hello = "Hi,I'm wt"
+  # subtitle = "I'm ROC"
+  logo = "https://res.cloudinary.com/shaocongcong/image/upload/v1524144512/blog/logo.jpg"
+  favicon = "favicon.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  description = "imwt.io|wt的博客|Cloud Native|Kubernetes|Go|Golang"
+
+[Params.comments.github]
+owner = "shaocongcong" # github account
+repo = "shaocongcong.github.io" # the repo in your github account which comments data would be submitted into it's issue
+# client_id and client_secret could be created by: Settings-Developer settings-OAuth Apps-New OAuth app
+# client_id = "d05b8f959b3111c6fb63"
+# client_secret = "f30ef76ea0050ed731ace76f7fbf684ae5d28fbc"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/shaocongcong/image/upload/v1524187685/blog/bigimg/internet.jpg"
+desc = "Internet"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/shaocongcong/image/upload/v1524187683/blog/bigimg/golang.jpg"
+desc = "Go"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/shaocongcong/image/upload/v1524187683/blog/bigimg/hangzhou.jpg"
+desc = "HangZhou"
+
+[[Params.bigimg]]
+src = "https://res.cloudinary.com/shaocongcong/image/upload/v1524187684/blog/bigimg/labi.jpg"
+desc = "Xiaoxin"
+
+[[menu.main]]
+    identifier = "Categories"
+    name = "Categories"
+    weight = 1
+    
+[[menu.main]]
+    parent = "Categories"
+    name = "kubernetes"
+    url = "categories/kubernetes"
+    weight = 1
+
+[[menu.main]]
+    parent = "Categories"
+    name = "docker"
+    url = "categories/docker"
+    weight = 2
+
+[[menu.main]]
+    parent = "Categories"
+    name = "golang"
+    url = "categories/golang"
+    weight = 3
+
+[[menu.main]]
+    parent = "Categories"
+    name = "blockchain"
+    url = "categories/blockchain"
+    weight = 3
+
+[[menu.main]]
+    parent = "Categories"
+    name = "db"
+    url = "categories/foundationdb"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
+# [[menu.main]]
+#     name = "About"
+#     url = "about"
+#     weight = 4
+
+
+[Author]
+  name = "wt"
+  website = "imwt.io"
+  email = "ctowt@163.com"
+  github = "shaocongcong"
+#   twitter = "imrocchan"
+#   facebook = "username"
+  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  # gitlab = "username"
+  # reddit = "username"
+  # linkedin = "username"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
